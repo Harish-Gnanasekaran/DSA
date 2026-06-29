@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.ArrayList;
 
-public class Print_power {
+public class Print_pattern {
     public ArrayList<Integer> pattern(int n) {
             ArrayList<Integer> ans = new ArrayList<>();
             solve(n, n, false, ans);
