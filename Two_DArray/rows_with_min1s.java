@@ -1,11 +1,10 @@
 package Two_DArray;
 
-class Solution {
+class rows_with_min1s {
     int minRow(int mat[][]) {
 
         int n=mat.length;
         int m=mat[0].length;
-
 
         int mincount=Integer.MAX_VALUE;
         int answer=1;
